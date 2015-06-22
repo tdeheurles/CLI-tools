@@ -9,8 +9,6 @@ RUN         apk update
 # RUN         apk add zsh
 # RUN         apk add git
 # RUN         env git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh $HOME/.zsh
-
-
 ENV         DOTFILE_PATH    /root/dots
 ENV         DOTFILE_ZSHRC   zshrc
 ENV         ZSH_THEME       random
@@ -36,7 +34,6 @@ RUN         mkdir $DOTFILE_PATH && \
 
 # CLI graphs
 # https://github.com/philovivero/distribution
-
 
 # https://github.com/facebook/PathPicker
 
